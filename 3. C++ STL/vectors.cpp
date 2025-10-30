@@ -26,5 +26,7 @@ int main()
 
     // accessing the elements
     cout << vec3[2]; // prints the 2nd index of vec3 (just like array) vec3.at(2) will do the same but less used
+    //pop_back() is used to delete the last element in a vector 
     return 0;
+
 }
