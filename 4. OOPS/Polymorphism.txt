@@ -1,0 +1,5 @@
+there are two kinds of polymorphism -> run time polymorphism  and compile time polymorphism 
+run time polymorphism occurs when a function call is resolved at runtime rather than at compile time
+the examples of compile time polymorphism are given in function overloading , constructor overloading , operator overloading 
+and an usecase is shown in fractionclass
+and lastly runtime polymorphism is shown in overriding
