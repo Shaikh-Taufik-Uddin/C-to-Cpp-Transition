@@ -11,6 +11,7 @@ int main()
             int temp = arr[j - 1];
             arr[j - 1] = arr[j];
             arr[j] = temp;
+            // or use swap function swap(arr[j-1],arr[j]) ;
             j--;
         }
     }
@@ -20,4 +21,5 @@ int main()
     }
     return 0;
 }
+
 // worst and avg case are of O(n2) complexity but for best case is O(n)
