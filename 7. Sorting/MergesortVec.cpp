@@ -3,7 +3,7 @@
 using namespace std;
 void merge(vector<int> &arr, int low, int mid, int high)
 {
-    vector<int> temp; // arrays had many quirks with indexing and all so we use vectors to simpl;ify that
+    vector<int> temp; // arrays had many quirks with indexing and all so we use vectors to simplify that
     int low2nd = mid + 1;
     int begin = low;                     // backup of low
     while (low <= mid && low2nd <= high) // merger
@@ -54,4 +54,5 @@ int main()
         cout << it;
     }
     return 0;
+
 }
