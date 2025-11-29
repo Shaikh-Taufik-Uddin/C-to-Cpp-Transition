@@ -50,7 +50,7 @@ int main()
                 j=i;
             }
         }
-    if j==-1 ;
+    if (j==-1) ;
     return ; // if there is no zero element then return 
     for (int i = 0; i < 4; i++)
     {
@@ -67,3 +67,4 @@ int main()
     return 0;
 
 }
+
