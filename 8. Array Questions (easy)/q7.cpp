@@ -42,7 +42,16 @@ using namespace std;
 int main()
 {
     vector<int> arr = {5, 5, 0, 1, 0};
-    int j = 0;
+    int j = -1;
+    for ( int i = 0;i < arr.size() ; i++) // finds the first zero element and points it 
+        {
+            if(arr[i]==0)
+            {
+                j=i;
+            }
+        }
+    if j==-1 ;
+    return ; // if there is no zero element then return 
     for (int i = 0; i < 4; i++)
     {
         if (arr[i] != 0)
@@ -56,4 +65,5 @@ int main()
         cout << it;
     }
     return 0;
+
 }
