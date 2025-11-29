@@ -30,7 +30,7 @@ int main()
             int len = i - mpp[rem];    // find length
             maxlen = max(maxlen, len); // update length
         }
-        if (mpp.find(sum) == mpp.end()) // if such sum not found
+        if (mpp.find(sum) == mpp.end()) // update the sum of elements till now 
         {
             mpp[sum] = i; // store the sum
         }
