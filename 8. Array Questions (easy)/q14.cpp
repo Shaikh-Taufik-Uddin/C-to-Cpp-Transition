@@ -17,7 +17,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
 
-        sum += arr[i]; // sums from o to i and stores
+        sum += arr[i]; // sums from 0 to i and stores
         if (sum == k)  // if subarray starts from beginnig
         {
             maxlen = max(maxlen, i + 1); // update length
@@ -37,4 +37,5 @@ int main()
     }
     cout << maxlen;
     return 0;
+
 }
