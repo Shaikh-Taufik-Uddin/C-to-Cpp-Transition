@@ -1,5 +1,5 @@
 // find maximum consecutive 1's in an array
-// optimal 
+// optimal approach
 
 #include <iostream>
 #include <vector>
@@ -27,4 +27,5 @@ int main()
     }
     cout << max;
     return 0;
+
 }
