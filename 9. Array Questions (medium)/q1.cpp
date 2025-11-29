@@ -125,7 +125,7 @@ int main()
 			cout << i << " " << mpp[r]; // print the indices
 			return 0;
 		}
-		mpp[arr[i]] = i; // if not enter the current value with its index
+		mpp[arr[i]] = i; // enter the current value with its index
 	}
 
 	cout << "no";
@@ -166,4 +166,5 @@ int main()
 	cout<<"NO"<< "(-1,-1)";
 
 	return 0;
+
 }
