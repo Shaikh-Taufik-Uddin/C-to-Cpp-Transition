@@ -55,10 +55,10 @@ int main()
         {
             maxp = profit;
             buy = mini;
-            sell = i;
+            sell = arr[i];
         }
     }
     cout << maxp << endl
-         << "buy at " << arr[buy] << " sell at " << arr[sell];
+         << "buy at " << buy << " sell at " << sell ;
     return 0;
 }
