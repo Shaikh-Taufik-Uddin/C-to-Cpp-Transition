@@ -56,8 +56,9 @@ int main()
         if (arr[i] > maxx) // if new maximum is found
         {
             lead.push_back(arr[i]); // store the maximum
+            maxx = arr[i] ; 
         }
-        maxx = max(arr[i], maxx); // update maximum
+        // maxx = max(arr[i], maxx); // update maximum
     }
 
     // sort(lead.begin(), lead.end());
@@ -69,3 +70,4 @@ int main()
     }
     return 0;
 }
+
