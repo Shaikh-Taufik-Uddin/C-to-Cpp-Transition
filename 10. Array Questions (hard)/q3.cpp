@@ -1,4 +1,4 @@
-// 3 Sum : Find triplets that add up to a zero 
+// 3 Sum : Find triplets that add up to a zero
 //(optional : or a given sum)
 
 #include <iostream>
@@ -18,9 +18,9 @@ int main()
         {
             continue; // then do not keep i , (find unique i in each run)
         }
-        int j = i + 1; // j starts right next to i 
-        int k = n - 1; // k starts right at the end 
-        while (j < k) // till j have not crossed k
+        int j = i + 1; // j starts right next to i
+        int k = n - 1; // k starts right at the end
+        while (j < k)  // till j have not crossed k
         {
             int sum = arr[i] + arr[j] + arr[k];
             if (sum < target)
@@ -32,13 +32,13 @@ int main()
             {
                 k--; // try to decrease the sum as its higher than target (by decreasing k index)
             }
-            else // means target is reached 
+            else // means target is reached
             {
-                vector<int> temp = {arr[i], arr[j], arr[k]}; // store the elements in a temp vector 
-                ans.push_back(temp); // store the answer vector 
-                j++; // increase the index (as for this we has just checked)
-                k--; // decrease the index (as for this we has just checked)
-                while (j < k && arr[j] == arr[j - 1]) // keep increasing j if it is found to be same as the previous one 
+                vector<int> temp = {arr[i], arr[j], arr[k]}; // store the elements in a temp vector
+                ans.push_back(temp);                         // store the answer vector
+                j++;                                         // increase the index (as for this we has just checked)
+                k--;                                         // decrease the index (as for this we has just checked)
+                while (j < k && arr[j] == arr[j - 1])        // keep increasing j if it is found to be same as the previous one
                 {
                     j++;
                 }
