@@ -31,6 +31,7 @@ int main()
             else if (sum > target)
             {
                 k--; // try to decrease the sum as its higher than target (by decreasing k index)
+                // here the same elements of k will be automatically ignored because sum wont change for same elements
             }
             else // means target is reached
             {
@@ -59,3 +60,4 @@ int main()
     }
     return 0;
 }
+
